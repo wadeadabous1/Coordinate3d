@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 // Use Supabase via CDN to avoid CORS issues
-const SUPA_URL = "https://mkvlqiksskvqqyquzvy.supabase.co";
-const SUPA_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1rdmxxaWtzc3NrdnFxeXF1enZ5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA2Mzk4MDMsImV4cCI6MjA5NjIxNTgwM30.yVjbECOgBr3Krc8a9qMRsxhDFx8IiyYtZkffr92nzFE";
+const SUPA_URL = "https://mlabukpafmcfnwzwhcho.supabase.co";
+const SUPA_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1sYWJ1a3BhZm1jZm53endoY2hvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA2NzMyMTcsImV4cCI6MjA5NjI0OTIxN30.uFD6I9SYOv9MpnEK7DKB_AkFMZVkuzN8VnmXpeLo0AA";
 
 const HEADERS = {
   'apikey': SUPA_KEY,
